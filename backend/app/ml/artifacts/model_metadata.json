@@ -1,0 +1,28 @@
+{
+  "model_version": "v1.0",
+  "model_type": "Keras Neural Network",
+  "model_format": "keras",
+  "model_path": "backend/app/ml/artifacts\\study_slot_model.keras",
+  "preprocessor_path": "backend/app/ml/artifacts\\preprocessor.joblib",
+  "train_samples": 1049,
+  "val_samples": 226,
+  "test_samples": 225,
+  "class_distribution": {
+    "negative_0": 457,
+    "positive_1": 1043
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.8489,
+    "precision": 0.8631,
+    "recall": 0.9295,
+    "f1": 0.8951,
+    "roc_auc": 0.9273
+  },
+  "baseline_metrics": {
+    "dummy_most_frequent_accuracy": 0.6933,
+    "baseline_lr_accuracy": 0.8267,
+    "baseline_lr_f1": 0.8793,
+    "baseline_lr_roc_auc": 0.8711
+  },
+  "limitations": "Model trained on synthetic demonstration dataset. In real student workflows, actual task completion and fatigue curves should be collected over time to replace synthetic ground truth."
+}
