@@ -4,7 +4,7 @@
 
 ---
 
-## 🎨 Color Palette & Themes
+## Color Palette & Themes
 
 Meticul follows a curated, cohesive color palette via CSS variables:
 
@@ -26,7 +26,7 @@ Meticul follows a curated, cohesive color palette via CSS variables:
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18, Vite, Vanilla CSS design system, Lucide React icons.
 - **Backend**: Python 3 (Flask), RESTful API with CORS enabled.
@@ -35,7 +35,7 @@ Meticul follows a curated, cohesive color palette via CSS variables:
 
 ---
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```
 StudyPlannerTwo/
@@ -84,7 +84,7 @@ StudyPlannerTwo/
 
 ---
 
-## ⚙️ Local Setup and Run Instructions
+## Local Setup and Run Instructions
 
 ### Prerequisites
 - Python 3.10+ installed
@@ -148,7 +148,7 @@ StudyPlannerTwo/
 
 ---
 
-## 🗄️ Database Schema (`backend/db.sql`)
+## Database Schema (`backend/db.sql`)
 
 The database uses SQLite with `PRAGMA foreign_keys = ON;`:
 
@@ -211,7 +211,7 @@ The database uses SQLite with `PRAGMA foreign_keys = ON;`:
 
 ---
 
-## 🧠 ML Urgency Model & Schedule Optimization
+## ML Urgency Model & Schedule Optimization
 
 The planner in `backend/planner.py` uses scikit-learn and an Earliest-Deadline-First capacity model:
 
