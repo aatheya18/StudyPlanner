@@ -2,7 +2,7 @@
 ML-Assisted Study Plan Generator Module for Meticul.
 
 Urgency Scoring Explanation:
------------------------------
+
 1. Urgency is determined using three primary features for each pending task:
    - Deadline Proximity: Inverse logarithm of hours remaining until deadline.
      Fewer hours remaining results in exponentially higher urgency.
@@ -367,7 +367,7 @@ def generate_study_plan(tasks, settings, availability, current_time=None):
                     if tid in active_task_ids:
                         active_task_ids.remove(tid)
 
-                # Move to next slot assignment
+                # Move to next slot assignment.
                 break
 
             if not scheduled_any:
